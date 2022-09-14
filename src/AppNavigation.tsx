@@ -6,15 +6,20 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { useQuery } from '@apollo/client';
 import { GET_THEME } from './graphql/reactivities/ThemeVariable';
 import i18n from './utils/i18n';
-import { SplashScreen, LookupScreen, QRScanScreen } from './screens';
+import { SplashScreen, LookupScreen, QRScanScreen, TransactionInfoScreen } from './screens';
 
 const LookupStack = createStackNavigator();
 function LookupStackScreen(theme: any) {
   return () => (
     <LookupStack.Navigator>
       <LookupStack.Screen
-        name="LookupStack"
+        name="Lookup"
         component={LookupScreen}
+        options={{ headerShown: false }}
+      />
+      <LookupStack.Screen
+        name="TransactionInfo"
+        component={TransactionInfoScreen}
         options={{ headerShown: false }}
       />
     </LookupStack.Navigator>
@@ -26,7 +31,7 @@ function QRScanStackScreen(theme: any) {
   return () => (
     <QRScanStack.Navigator>
       <QRScanStack.Screen
-        name="QRScanStack"
+        name="QRScan"
         component={QRScanScreen}
         options={{ headerShown: false }}
       />
@@ -55,7 +60,7 @@ export default function AppNavigation() {
   return (
     <NavigationContainer>
       <Tab.Navigator
-        initialRouteName={'Lookup'}
+        initialRouteName={'LookupScreen'}
         screenOptions={{
           tabBarActiveTintColor: _theme.data.theme.textColorPrimary,
           tabBarInactiveTintColor: _theme.data.theme.textColorSecondary,
@@ -75,7 +80,7 @@ export default function AppNavigation() {
           }}
         >
           <Tab.Screen
-            name="Lookup"
+            name="LookupScreen"
             component={LookupStackScreen(_theme.data.theme)}
             options={{
               title: i18n.t('Header.Lookup'),
@@ -83,7 +88,7 @@ export default function AppNavigation() {
             }}
           />
           <Tab.Screen
-            name="QRScan"
+            name="QRScanScreen"
             component={QRScanStackScreen(_theme.data.theme)}
             options={{
               title: i18n.t('Header.QRScan'),
