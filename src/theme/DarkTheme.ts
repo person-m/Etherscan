@@ -2,6 +2,7 @@ import Color from '../utils/Color';
 
 export default {
   type: 'dark',
+  logoSplashScreen: 'logo_dark.png',
   barStyle: 'light-content',
   bgColorPrimary: Color.BLUE,
   bgColorSecondary: Color.DARKBLUE,
