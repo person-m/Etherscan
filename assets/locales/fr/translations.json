@@ -11,6 +11,7 @@
     "Title": "Veuillez entrer une adresse ethereum valide :",
     "Placeholder": "Ex: 0x1840AF46EeFC8eD247cbOddc1C756f2d570FE3dB",
     "Button": "Rechercher",
+    "ButtonLoading": "Patientez",
     "Recent": "TRANSACTIONS LES PLUS RECENTES",
     "To": "To"
   },

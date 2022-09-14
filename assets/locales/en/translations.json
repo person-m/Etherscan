@@ -11,6 +11,7 @@
     "Title": "Please enter a valid ethereum address:",
     "Placeholder": "Ex: 0x1840AF46EeFC8eD247cbOddc1C756f2d570FE3dB",
     "Button": "Lookup",
+    "ButtonLoading": "Please wait",
     "Recent": "MOST RECENT TRANSACTIONS",
     "To": "To"
   },

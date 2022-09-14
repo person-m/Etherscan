@@ -11,5 +11,5 @@ export default {
   colorOpposite: Color.BLACK,
   colorAccentPrimary: Color.BRIGHTBLUE,
   textColorPrimary: Color.BLACK,
-  textColorSecondary: Color.DARKGRAY,
+  textColorSecondary: Color.GRAY,
 };
