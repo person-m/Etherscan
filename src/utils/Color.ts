@@ -1,0 +1,11 @@
+export default {
+  DARKGRAY: '#1b1b1b',
+  GRAY: '#808080',
+  LIGHTGRAY: '#ECF0F3',
+  WHITESMOKE: '#F7F7F7',
+  WHITE: '#FFFFFF',
+  BLACK: '#000000',
+  BLUE: '#242b43',
+  DARKBLUE: '#1b2136',
+  BRIGHTBLUE: '#4065f6',
+}
