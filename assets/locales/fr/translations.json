@@ -1,0 +1,22 @@
+{
+  "Header": {
+    "Lookup": "Coinhouse Etherscan",
+    "QRScan": "QRScanner"
+  },
+  "BottomTab": {
+    "Lookup": "Recherche",
+    "QRScan": "QRScan"
+  },
+  "Lookup": {
+    "Title": "Veuillez entrer une adresse ethereum valide :",
+    "Placeholder": "Ex: 0x1840AF46EeFC8eD247cbOddc1C756f2d570FE3dB",
+    "Button": "Rechercher",
+    "Recent": "TRANSACTIONS LES PLUS RECENTES",
+    "To": "To"
+  },
+  "QRScan": {
+    "Rescan": "Re:Scan",
+    "Lookup": "RechercheR",
+    "Address": "Adresse"
+  }
+}
