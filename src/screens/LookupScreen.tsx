@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { View, Text, StyleSheet, TextInput, Image, TouchableOpacity, FlatList, Keyboard } from 'react-native'
 import i18n from '../utils/i18n';
 import { ViewWT, TextWT } from '../components'

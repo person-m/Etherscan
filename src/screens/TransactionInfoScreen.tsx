@@ -1,8 +1,6 @@
-import { useQuery } from '@apollo/client'
-import React, { useEffect } from 'react'
-import { View, Text, StyleSheet, FlatList, ScrollView } from 'react-native'
+import React from 'react'
+import { View, StyleSheet, ScrollView } from 'react-native'
 import { TextWT, ViewWT } from '../components'
-import { GET_THEME } from '../graphql/reactivities/ThemeVariable'
 import Color from '../utils/Color'
 
 export const TransactionInfoScreen = ( {route} ) => {
