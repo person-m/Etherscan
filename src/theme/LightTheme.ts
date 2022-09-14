@@ -3,6 +3,7 @@ import Color from '../utils/Color';
 
 export default {
   type: 'light',
+  logoSplashScreen: 'logo_white.png',
   barStyle: Platform.OS === 'ios' ? 'dark-content' : 'light-content',
   bgColorPrimary: Color.WHITE,
   bgColorSecondary: Color.WHITESMOKE,
